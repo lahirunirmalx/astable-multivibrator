@@ -1,0 +1,226 @@
+(footprint "Q_NPN_Hybrid_TO-92_SOT-23"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Hybrid NPN: TO-92 inline (legs L-B-R, pads 4-2-5) OR SOT-23 (1=E 2=B 3=C). Outer TO-92 legs route through solder jumpers to E/C so EBC and CBE parts both fit")
+	(tags "transistor hybrid TO-92 SOT-23 jumper")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "f9e34acb-790d-4396-b8ea-61aab69ec536")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Q_NPN_Hybrid_TO-92_SOT-23"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "c2d3f572-fd96-41e5-8d04-effac4dccab9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8010cae2-08c3-40ab-be2c-429b16a63761")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a6b7416-6cb3-4ed7-aae6-6179d98887be")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.8 1.85)
+		(end 1.8 1.85)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1d3acd22-4e35-4f3b-8a53-4aa67fcb86e5")
+	)
+	(fp_line
+		(start -0.65 -4.099999)
+		(end 2.55 -4.099999)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "61afcf6a-f5dd-4da7-a33c-b2996ea927d4")
+	)
+	(fp_line
+		(start 2.6 -2.4)
+		(end 2.6 -1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9f9dbd60-e23a-480e-9602-0381772257df")
+	)
+	(fp_arc
+		(start -1.838478 1.838478)
+		(mid -2.402087 -0.994977)
+		(end 0 -2.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a5bf85ec-1230-4c81-8fd3-9318533493ee")
+	)
+	(fp_arc
+		(start 0 -2.6)
+		(mid 2.402087 -0.994977)
+		(end 1.838478 1.838478)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b33e1606-71a4-47f0-bad7-f89d2f7f55bd")
+	)
+	(fp_rect
+		(start -2.910001 -4.409999)
+		(end 2.91 2.16)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "10004b00-e676-4bf8-914f-29c3c7165ed4")
+	)
+	(fp_line
+		(start -1.77 1.75)
+		(end 1.73 1.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "44f5b25c-8c53-44a2-98d3-b7072d4b0cfe")
+	)
+	(fp_rect
+		(start -0.5 -3.3375)
+		(end 2.4 -2.0375)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "443fb1d8-887c-4134-90be-2bc49404eecb")
+	)
+	(fp_arc
+		(start -1.753625 1.753625)
+		(mid -2.291221 -0.949055)
+		(end 0 -2.48)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e8c0aeec-0245-417c-a8aa-f844c0a37039")
+	)
+	(fp_arc
+		(start 0 -2.48)
+		(mid 2.291221 -0.949055)
+		(end 1.753625 1.753625)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ba7a5508-01ef-4318-a445-a3d67a78a8b6")
+	)
+	(pad "1" smd roundrect
+		(at 1.9 -1.75)
+		(size 0.6 1.475)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "0fd3a8b2-1233-4dd6-92e8-6396d0a675a1")
+	)
+	(pad "2" smd roundrect
+		(at 0 -1.75)
+		(size 0.6 1.475)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "193fd833-4adf-4cec-8568-fad935c6f527")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 1.05 2.6)
+		(drill 0.75
+			(offset 0 -0.55)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "0e2a29ac-8417-48da-b160-ae70c76676c2")
+	)
+	(pad "3" smd roundrect
+		(at 0.95 -3.625)
+		(size 1.475 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "4255c8bb-5137-4341-bffb-e01bfe4ccb13")
+	)
+	(pad "4" thru_hole rect
+		(at -1.27 0)
+		(size 1.05 1.5)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "2bed4a94-0814-4b3a-b61d-187257ddde18")
+	)
+	(pad "5" thru_hole oval
+		(at 1.27 0)
+		(size 1.05 1.5)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "644332ab-49e0-4b83-857d-2559d73e52b7")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline.wrl"
+		(offset
+			(xyz -1.27 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

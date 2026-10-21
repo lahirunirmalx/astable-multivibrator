@@ -1,0 +1,24 @@
+{
+  "release_id": "rel_20261020_190434",
+  "project": "astable_multivibrator",
+  "generated_at_jst": "2026-10-20T19:04:36.190108+09:00",
+  "generated_at_utc": "2026-10-20T10:04:36.190121+00:00",
+  "upstream": {
+    "bom_readiness_verified_at": "2026-10-20T10:04:01.032719Z",
+    "bom_readiness_summary": {
+      "total": 15,
+      "pass": 15,
+      "fail": 0,
+      "real_mpn_count": 0
+    }
+  },
+  "coverage": {
+    "n_unique_mpn": 0,
+    "single_vendor_coverage": {
+      "digikey_jp": "0/0",
+      "mouser_jp": "0/0",
+      "lcsc": "0/0"
+    },
+    "recommended_paths": []
+  }
+}

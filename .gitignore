@@ -1,0 +1,32 @@
+# OS / editor noise
+.DS_Store
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# KiCad local UI/history cache
+kicad/**/.history/
+kicad/**/*.kicad_prl
+
+# Component-selection scratch space
+datasheets/component_selecting/_scratch/
+datasheets/component_selecting/_pending_*.json
+
+# Archived/temporary datasheets
+datasheets/_archive/
+
+# Routing intermediates and logs (regenerate with kicad/tools/route_freerouting.py)
+kicad/**/*.dsn
+kicad/**/*.ses
+kicad/**/*.net
+kicad/**/*.round1.kicad_pcb
+kicad/**/logs/
+kicad/**/*-backups/
+kicad/**/fp-info-cache
+kicad/**/_autosave-*
+kicad/**/*.kicad_pcb-bak
+kicad/**/*.kicad_sch-bak
+
+# PCB-Agent-Teams workflow scratch
+_artifacts/

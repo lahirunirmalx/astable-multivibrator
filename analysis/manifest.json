@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "project": "astable_multivibrator.kicad_pro",
+  "current": "2026-10-20_1046",
+  "runs": {
+    "2026-10-20_1046": {
+      "source_hashes": {
+        "astable_multivibrator.kicad_sch": "sha256:2d8cf5031e551711b96bbc6b21a91d2be641c402fe93f29da838450158781d6f",
+        "astable_multivibrator_routed.kicad_pcb": "sha256:4a3175be50bc9d035529cc44e53f6a2f02286ea88f2399a14a9b004aa19fb17e",
+        "schematic.json": "sha256:2a490c4faddf00ce27f376f7f7affd77f8ccf7e0065fb363c34ab22bd6d03b3a",
+        "pcb.json": "sha256:8cdd942fdfc9d49092a2e9541e53913c71bb94c08093cd10757a17214cdd98e9"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "spice": "spice.json",
+        "cross_analysis": "cross_analysis.json",
+        "thermal": "thermal.json",
+        "emc": "emc.json",
+        "gerber": "gerber.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py astable_multivibrator.kicad_sch"
+      },
+      "generated": "2026-10-20T11:07:57+05:30",
+      "pinned": false
+    }
+  }
+}

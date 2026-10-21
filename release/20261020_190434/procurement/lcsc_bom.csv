@@ -1,0 +1,8 @@
+Comment,Designator,Footprint,LCSC Part #,Manufacture Part Number,Quantity
+PWR_IN,J1,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,PWR_IN,1
+470,R1 R4,Hybrid:R_Hybrid_0805_P2.54_Vertical,,470,2
+LED_RED,LED1 LED2,Hybrid:LED_Hybrid_0805_D3.0mm,,LED_RED,2
+47k,R2 R3,Hybrid:R_Hybrid_0805_P2.54_Vertical,,47k,2
+10uF,C1 C2,Hybrid:CP_Hybrid_0805_D5.0mm_P2.50mm,,10uF,2
+NPN,Q1 Q2,Hybrid:Q_NPN_Hybrid_TO-92_SOT-23,,NPN,2
+PINOUT,JP1 JP2 JP3 JP4,Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm,,PINOUT,4

@@ -1,0 +1,1072 @@
+{
+  "name": "astable_multivibrator",
+  "description": "",
+  "tstamps": "/astable_multivibrator-138443121724880/",
+  "source_file": "astable_multivibrator.kicad_sch",
+  "components": {
+    "J1": {
+      "symbol": "Connector_Generic:Conn_01x02",
+      "ref": "J1",
+      "value": "PWR_IN",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "datasheet": "~",
+      "description": "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",
+      "properties": {
+        "ki_fp_filters": "Connector*:*_1x??_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "Connector*:*_1x??_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "Pin_1",
+          "func": "passive",
+          "unit": 1,
+          "x": -5.08,
+          "y": 0.0,
+          "length": 3.81,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "2",
+          "name": "Pin_2",
+          "func": "passive",
+          "unit": 1,
+          "x": -5.08,
+          "y": -2.54,
+          "length": 3.81,
+          "orientation": 0.0
+        }
+      ]
+    },
+    "R1": {
+      "symbol": "Device:R",
+      "ref": "R1",
+      "value": "470",
+      "footprint": "Hybrid:R_Hybrid_0805_P2.54_Vertical",
+      "datasheet": "~",
+      "description": "Resistor",
+      "properties": {
+        "ki_fp_filters": "R_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "R_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "~",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 1.27,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "~",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 1.27,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "LED1": {
+      "symbol": "Device:LED",
+      "ref": "LED1",
+      "value": "LED_RED",
+      "footprint": "Hybrid:LED_Hybrid_0805_D3.0mm",
+      "datasheet": "~",
+      "description": "Light emitting diode",
+      "properties": {
+        "ki_fp_filters": "LED* LED_SMD:* LED_THT:*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "LED* LED_SMD:* LED_THT:*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "K",
+          "func": "passive",
+          "unit": 1,
+          "x": -3.81,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "2",
+          "name": "A",
+          "func": "passive",
+          "unit": 1,
+          "x": 3.81,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 180.0
+        }
+      ]
+    },
+    "R4": {
+      "symbol": "Device:R",
+      "ref": "R4",
+      "value": "470",
+      "footprint": "Hybrid:R_Hybrid_0805_P2.54_Vertical",
+      "datasheet": "~",
+      "description": "Resistor",
+      "properties": {
+        "ki_fp_filters": "R_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "R_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "~",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 1.27,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "~",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 1.27,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "LED2": {
+      "symbol": "Device:LED",
+      "ref": "LED2",
+      "value": "LED_RED",
+      "footprint": "Hybrid:LED_Hybrid_0805_D3.0mm",
+      "datasheet": "~",
+      "description": "Light emitting diode",
+      "properties": {
+        "ki_fp_filters": "LED* LED_SMD:* LED_THT:*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "LED* LED_SMD:* LED_THT:*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "K",
+          "func": "passive",
+          "unit": 1,
+          "x": -3.81,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "2",
+          "name": "A",
+          "func": "passive",
+          "unit": 1,
+          "x": 3.81,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 180.0
+        }
+      ]
+    },
+    "R2": {
+      "symbol": "Device:R",
+      "ref": "R2",
+      "value": "47k",
+      "footprint": "Hybrid:R_Hybrid_0805_P2.54_Vertical",
+      "datasheet": "~",
+      "description": "Resistor",
+      "properties": {
+        "ki_fp_filters": "R_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "R_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "~",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 1.27,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "~",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 1.27,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "R3": {
+      "symbol": "Device:R",
+      "ref": "R3",
+      "value": "47k",
+      "footprint": "Hybrid:R_Hybrid_0805_P2.54_Vertical",
+      "datasheet": "~",
+      "description": "Resistor",
+      "properties": {
+        "ki_fp_filters": "R_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "R_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "~",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 1.27,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "~",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 1.27,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "C1": {
+      "symbol": "Device:C_Polarized",
+      "ref": "C1",
+      "value": "10uF",
+      "footprint": "Hybrid:CP_Hybrid_0805_D5.0mm_P2.50mm",
+      "datasheet": "~",
+      "description": "Polarized capacitor",
+      "properties": {
+        "ki_fp_filters": "CP_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "CP_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "~",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 2.794,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "~",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 2.794,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "C2": {
+      "symbol": "Device:C_Polarized",
+      "ref": "C2",
+      "value": "10uF",
+      "footprint": "Hybrid:CP_Hybrid_0805_D5.0mm_P2.50mm",
+      "datasheet": "~",
+      "description": "Polarized capacitor",
+      "properties": {
+        "ki_fp_filters": "CP_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "CP_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "~",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 2.794,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "~",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 2.794,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "Q1": {
+      "symbol": "Hybrid:Q_NPN_Hybrid",
+      "ref": "Q1",
+      "value": "NPN",
+      "footprint": "Hybrid:Q_NPN_Hybrid_TO-92_SOT-23",
+      "datasheet": "~",
+      "description": "NPN transistor on hybrid TO-92/SOT-23 footprint: 1=E 2=B 3=C (SOT-23 lands + shared B hole), 4=TL 5=TR TO-92 outer legs (route via solder jumpers to E/C)",
+      "properties": {},
+      "_extra_fields": {},
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "E",
+          "func": "passive",
+          "unit": 1,
+          "x": 2.54,
+          "y": -5.08,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "2",
+          "name": "B",
+          "func": "input",
+          "unit": 1,
+          "x": -5.08,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "3",
+          "name": "C",
+          "func": "passive",
+          "unit": 1,
+          "x": 2.54,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "4",
+          "name": "TL",
+          "func": "passive",
+          "unit": 1,
+          "x": -5.08,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "5",
+          "name": "TR",
+          "func": "passive",
+          "unit": 1,
+          "x": -5.08,
+          "y": -5.08,
+          "length": 2.54,
+          "orientation": 0.0
+        }
+      ]
+    },
+    "Q2": {
+      "symbol": "Hybrid:Q_NPN_Hybrid",
+      "ref": "Q2",
+      "value": "NPN",
+      "footprint": "Hybrid:Q_NPN_Hybrid_TO-92_SOT-23",
+      "datasheet": "~",
+      "description": "NPN transistor on hybrid TO-92/SOT-23 footprint: 1=E 2=B 3=C (SOT-23 lands + shared B hole), 4=TL 5=TR TO-92 outer legs (route via solder jumpers to E/C)",
+      "properties": {},
+      "_extra_fields": {},
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "E",
+          "func": "passive",
+          "unit": 1,
+          "x": 2.54,
+          "y": -5.08,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "2",
+          "name": "B",
+          "func": "input",
+          "unit": 1,
+          "x": -5.08,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "3",
+          "name": "C",
+          "func": "passive",
+          "unit": 1,
+          "x": 2.54,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "4",
+          "name": "TL",
+          "func": "passive",
+          "unit": 1,
+          "x": -5.08,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "5",
+          "name": "TR",
+          "func": "passive",
+          "unit": 1,
+          "x": -5.08,
+          "y": -5.08,
+          "length": 2.54,
+          "orientation": 0.0
+        }
+      ]
+    },
+    "JP1": {
+      "symbol": "Jumper:SolderJumper_3_Bridged12",
+      "ref": "JP1",
+      "value": "PINOUT",
+      "footprint": "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm",
+      "datasheet": "~",
+      "description": "3-pole Solder Jumper, pins 1+2 closed/bridged",
+      "properties": {
+        "ki_fp_filters": "SolderJumper*Bridged12*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "SolderJumper*Bridged12*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "A",
+          "func": "passive",
+          "unit": 1,
+          "x": -5.08,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "2",
+          "name": "C",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "3",
+          "name": "B",
+          "func": "passive",
+          "unit": 1,
+          "x": 5.08,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 180.0
+        }
+      ]
+    },
+    "JP2": {
+      "symbol": "Jumper:SolderJumper_3_Bridged12",
+      "ref": "JP2",
+      "value": "PINOUT",
+      "footprint": "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm",
+      "datasheet": "~",
+      "description": "3-pole Solder Jumper, pins 1+2 closed/bridged",
+      "properties": {
+        "ki_fp_filters": "SolderJumper*Bridged12*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "SolderJumper*Bridged12*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "A",
+          "func": "passive",
+          "unit": 1,
+          "x": -5.08,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "2",
+          "name": "C",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "3",
+          "name": "B",
+          "func": "passive",
+          "unit": 1,
+          "x": 5.08,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 180.0
+        }
+      ]
+    },
+    "JP3": {
+      "symbol": "Jumper:SolderJumper_3_Bridged12",
+      "ref": "JP3",
+      "value": "PINOUT",
+      "footprint": "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm",
+      "datasheet": "~",
+      "description": "3-pole Solder Jumper, pins 1+2 closed/bridged",
+      "properties": {
+        "ki_fp_filters": "SolderJumper*Bridged12*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "SolderJumper*Bridged12*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "A",
+          "func": "passive",
+          "unit": 1,
+          "x": -5.08,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "2",
+          "name": "C",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "3",
+          "name": "B",
+          "func": "passive",
+          "unit": 1,
+          "x": 5.08,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 180.0
+        }
+      ]
+    },
+    "JP4": {
+      "symbol": "Jumper:SolderJumper_3_Bridged12",
+      "ref": "JP4",
+      "value": "PINOUT",
+      "footprint": "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm",
+      "datasheet": "~",
+      "description": "3-pole Solder Jumper, pins 1+2 closed/bridged",
+      "properties": {
+        "ki_fp_filters": "SolderJumper*Bridged12*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "SolderJumper*Bridged12*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "A",
+          "func": "passive",
+          "unit": 1,
+          "x": -5.08,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "2",
+          "name": "C",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "3",
+          "name": "B",
+          "func": "passive",
+          "unit": 1,
+          "x": 5.08,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 180.0
+        }
+      ]
+    }
+  },
+  "nets": {
+    "VCC": {
+      "nodes": [
+        {
+          "component": "J1",
+          "pin": {
+            "number": "1",
+            "name": "Pin_1",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "R1",
+          "pin": {
+            "number": "1",
+            "name": "~",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "R4",
+          "pin": {
+            "number": "1",
+            "name": "~",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "R2",
+          "pin": {
+            "number": "1",
+            "name": "~",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "R3",
+          "pin": {
+            "number": "1",
+            "name": "~",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": true,
+      "power_symbol": "power:VCC",
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "GND": {
+      "nodes": [
+        {
+          "component": "J1",
+          "pin": {
+            "number": "2",
+            "name": "Pin_2",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "Q1",
+          "pin": {
+            "number": "1",
+            "name": "E",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "Q2",
+          "pin": {
+            "number": "1",
+            "name": "E",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "JP1",
+          "pin": {
+            "number": "1",
+            "name": "A",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "JP2",
+          "pin": {
+            "number": "3",
+            "name": "B",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "JP3",
+          "pin": {
+            "number": "1",
+            "name": "A",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "JP4",
+          "pin": {
+            "number": "3",
+            "name": "B",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": true,
+      "power_symbol": "power:GND",
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "LED1_A": {
+      "nodes": [
+        {
+          "component": "R1",
+          "pin": {
+            "number": "2",
+            "name": "~",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "LED1",
+          "pin": {
+            "number": "2",
+            "name": "A",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "Q1_C": {
+      "nodes": [
+        {
+          "component": "LED1",
+          "pin": {
+            "number": "1",
+            "name": "K",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C1",
+          "pin": {
+            "number": "1",
+            "name": "~",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "Q1",
+          "pin": {
+            "number": "3",
+            "name": "C",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "JP1",
+          "pin": {
+            "number": "3",
+            "name": "B",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "JP2",
+          "pin": {
+            "number": "1",
+            "name": "A",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "LED2_A": {
+      "nodes": [
+        {
+          "component": "R4",
+          "pin": {
+            "number": "2",
+            "name": "~",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "LED2",
+          "pin": {
+            "number": "2",
+            "name": "A",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "Q2_C": {
+      "nodes": [
+        {
+          "component": "LED2",
+          "pin": {
+            "number": "1",
+            "name": "K",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C2",
+          "pin": {
+            "number": "1",
+            "name": "~",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "Q2",
+          "pin": {
+            "number": "3",
+            "name": "C",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "JP3",
+          "pin": {
+            "number": "3",
+            "name": "B",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "JP4",
+          "pin": {
+            "number": "1",
+            "name": "A",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "Q1_B": {
+      "nodes": [
+        {
+          "component": "R2",
+          "pin": {
+            "number": "2",
+            "name": "~",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C2",
+          "pin": {
+            "number": "2",
+            "name": "~",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "Q1",
+          "pin": {
+            "number": "2",
+            "name": "B",
+            "type": "input"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "Q2_B": {
+      "nodes": [
+        {
+          "component": "R3",
+          "pin": {
+            "number": "2",
+            "name": "~",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C1",
+          "pin": {
+            "number": "2",
+            "name": "~",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "Q2",
+          "pin": {
+            "number": "2",
+            "name": "B",
+            "type": "input"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "Q1_TL": {
+      "nodes": [
+        {
+          "component": "Q1",
+          "pin": {
+            "number": "4",
+            "name": "TL",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "JP1",
+          "pin": {
+            "number": "2",
+            "name": "C",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "Q1_TR": {
+      "nodes": [
+        {
+          "component": "Q1",
+          "pin": {
+            "number": "5",
+            "name": "TR",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "JP2",
+          "pin": {
+            "number": "2",
+            "name": "C",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "Q2_TL": {
+      "nodes": [
+        {
+          "component": "Q2",
+          "pin": {
+            "number": "4",
+            "name": "TL",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "JP3",
+          "pin": {
+            "number": "2",
+            "name": "C",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "Q2_TR": {
+      "nodes": [
+        {
+          "component": "Q2",
+          "pin": {
+            "number": "5",
+            "name": "TR",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "JP4",
+          "pin": {
+            "number": "2",
+            "name": "C",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    }
+  },
+  "subcircuits": [],
+  "annotations": []
+}

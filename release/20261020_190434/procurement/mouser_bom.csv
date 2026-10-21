@@ -1,0 +1,8 @@
+Mfr Part Number,Quantity,Description
+PWR_IN,1,connector / Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+470,2,generic / Hybrid:R_Hybrid_0805_P2.54_Vertical
+LED_RED,2,generic / Hybrid:LED_Hybrid_0805_D3.0mm
+47k,2,generic / Hybrid:R_Hybrid_0805_P2.54_Vertical
+10uF,2,generic / Hybrid:CP_Hybrid_0805_D5.0mm_P2.50mm
+NPN,2,generic / Hybrid:Q_NPN_Hybrid_TO-92_SOT-23
+PINOUT,4,connector / Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm

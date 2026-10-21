@@ -1,0 +1,8 @@
+Qty,Refs,MPN,Category,Footprint,Vendor_Status,Vendor_Stock,Vendor_Url,Datasheet
+1,J1,PWR_IN,connector,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,,,
+2,R1 R4,470,generic,Hybrid:R_Hybrid_0805_P2.54_Vertical,,,,
+2,LED1 LED2,LED_RED,generic,Hybrid:LED_Hybrid_0805_D3.0mm,,,,
+2,R2 R3,47k,generic,Hybrid:R_Hybrid_0805_P2.54_Vertical,,,,
+2,C1 C2,10uF,generic,Hybrid:CP_Hybrid_0805_D5.0mm_P2.50mm,,,,
+2,Q1 Q2,NPN,generic,Hybrid:Q_NPN_Hybrid_TO-92_SOT-23,,,,
+4,JP1 JP2 JP3 JP4,PINOUT,connector,Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm,,,,

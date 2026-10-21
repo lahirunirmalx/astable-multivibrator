@@ -1,0 +1,1216 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-21T17:06:15+0530",
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "9.0.8",
+    "schematic_parity": [],
+    "source": "astable_multivibrator_panel.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 111.965,
+                        "y": 30.775
+                    },
+                    "uuid": "04829092-c8e3-4c2b-86bb-98a6bcfc5601"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'CP_Hybrid_0805_D5.0mm_P2.50mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 134.5674,
+                        "y": 35.06
+                    },
+                    "uuid": "0b0aaf40-b65d-4e4c-9e0a-3c65dcc513a8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'CP_Hybrid_0805_D5.0mm_P2.50mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 190.4826,
+                        "y": 64.695
+                    },
+                    "uuid": "0b150e49-c4af-46c0-a620-71f26d002628"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_Hybrid_0805_D3.0mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint LED1",
+                    "pos": {
+                        "x": 154.945,
+                        "y": 35.56
+                    },
+                    "uuid": "166060cb-2537-4024-a664-30e55cf58dcf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 168.065,
+                        "y": 30.775
+                    },
+                    "uuid": "16baf590-52de-4df4-b68d-fc12e59644f1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_Hybrid_0805_D3.0mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint LED1",
+                    "pos": {
+                        "x": 98.845,
+                        "y": 35.56
+                    },
+                    "uuid": "1dd1cdee-97e5-4689-ad4b-0544441729ad"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'Q_NPN_Hybrid_TO-92_SOT-23' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 99.025,
+                        "y": 42.685
+                    },
+                    "uuid": "219689e0-1829-4541-882c-b586976e3b40"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 125.315,
+                        "y": 54.41
+                    },
+                    "uuid": "239bd51b-0ff7-47af-81b7-27b59430deb8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'Q_NPN_Hybrid_TO-92_SOT-23' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 99.025,
+                        "y": 66.32
+                    },
+                    "uuid": "28cc6d77-674e-4bcb-b014-add3fcb23573"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'Q_NPN_Hybrid_TO-92_SOT-23' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 183.175,
+                        "y": 66.32
+                    },
+                    "uuid": "2cd656ea-6846-47b1-b5a5-43ce993414e6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_Hybrid_0805_D3.0mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint LED2",
+                    "pos": {
+                        "x": 113.645,
+                        "y": 59.195
+                    },
+                    "uuid": "467cf39a-9855-4ad6-a5cc-6c6b0641dcba"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 101.565,
+                        "y": 30.775
+                    },
+                    "uuid": "47a85be4-0934-44a8-a82a-58db4dcb47dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'Q_NPN_Hybrid_TO-92_SOT-23' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 127.075,
+                        "y": 66.32
+                    },
+                    "uuid": "487eeab9-1376-4fcb-bb90-ad69b352c823"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 116.265,
+                        "y": 54.41
+                    },
+                    "uuid": "49554d25-a936-4add-a31a-b122fa0f2ed5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 116.265,
+                        "y": 30.775
+                    },
+                    "uuid": "4df4f607-4f09-4ab7-a1bf-07337854cef9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 153.365,
+                        "y": 54.41
+                    },
+                    "uuid": "50b6c0b5-1e99-46c9-90e6-678c70e4957a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'Q_NPN_Hybrid_TO-92_SOT-23' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint Q2",
+                    "pos": {
+                        "x": 169.925,
+                        "y": 42.685
+                    },
+                    "uuid": "51998ca5-886a-4504-b09c-c2682482a98e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_Hybrid_0805_D3.0mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint LED2",
+                    "pos": {
+                        "x": 169.745,
+                        "y": 35.56
+                    },
+                    "uuid": "53ea20f2-26bc-463f-ab94-c740def15208"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 200.415,
+                        "y": 30.775
+                    },
+                    "uuid": "55a44176-70a3-4b28-9935-cf9e122f8efc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'CP_Hybrid_0805_D5.0mm_P2.50mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 134.5674,
+                        "y": 58.695
+                    },
+                    "uuid": "57102d46-b9dd-4943-b85b-4ae0c7fbb5f0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_Hybrid_0805_D3.0mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint LED2",
+                    "pos": {
+                        "x": 169.745,
+                        "y": 59.195
+                    },
+                    "uuid": "57211ae1-b222-48cd-8b87-9d1dc04f077f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'CP_Hybrid_0805_D5.0mm_P2.50mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 106.3326,
+                        "y": 41.06
+                    },
+                    "uuid": "5a29032f-ec42-4123-8d4b-5d2c9259fed2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'CP_Hybrid_0805_D5.0mm_P2.50mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 106.3326,
+                        "y": 64.695
+                    },
+                    "uuid": "65a810ca-d00e-419d-9a1a-90edabb9b0a6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 144.315,
+                        "y": 30.775
+                    },
+                    "uuid": "6937e0aa-dcf2-485a-bdae-a250f5de0192"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 157.665,
+                        "y": 54.41
+                    },
+                    "uuid": "6950bb94-f4c4-45d5-b683-1fae2e993f1d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'Q_NPN_Hybrid_TO-92_SOT-23' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint Q2",
+                    "pos": {
+                        "x": 113.825,
+                        "y": 66.32
+                    },
+                    "uuid": "6953553f-d636-43a9-b061-2cbd258c8221"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 157.665,
+                        "y": 30.775
+                    },
+                    "uuid": "6a71e3ff-17cf-4a75-b5e2-d986b6569da5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 168.065,
+                        "y": 54.41
+                    },
+                    "uuid": "6acdb25a-c458-4eab-8fa2-4456aea19608"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'Q_NPN_Hybrid_TO-92_SOT-23' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 183.175,
+                        "y": 42.685
+                    },
+                    "uuid": "6ad3e36c-4277-4206-be18-8bc9fdba5f2a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'CP_Hybrid_0805_D5.0mm_P2.50mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 106.5174,
+                        "y": 35.06
+                    },
+                    "uuid": "6db8736c-40d8-4001-b493-73efd21469ac"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 185.715,
+                        "y": 30.775
+                    },
+                    "uuid": "75113b86-71a7-4e10-a936-984fce7533ac"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 101.565,
+                        "y": 54.41
+                    },
+                    "uuid": "7584d73c-da27-4ba4-93f2-433301991584"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_Hybrid_0805_D3.0mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint LED2",
+                    "pos": {
+                        "x": 141.695,
+                        "y": 35.56
+                    },
+                    "uuid": "76f3a528-2b08-4382-8241-6c61e4395f56"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'CP_Hybrid_0805_D5.0mm_P2.50mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 162.4326,
+                        "y": 64.695
+                    },
+                    "uuid": "78338be0-afd2-4e54-8cd3-55b6d4caaaaf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 97.265,
+                        "y": 30.775
+                    },
+                    "uuid": "7aef03a2-61d8-4f83-bf69-49c590317a68"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 181.415,
+                        "y": 30.775
+                    },
+                    "uuid": "7fd075bc-ed39-4235-ac69-2496f2ad7c47"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'Q_NPN_Hybrid_TO-92_SOT-23' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint Q2",
+                    "pos": {
+                        "x": 141.875,
+                        "y": 66.32
+                    },
+                    "uuid": "84a239cf-430d-4f03-b154-da77b29d5d19"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_Hybrid_0805_D3.0mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint LED1",
+                    "pos": {
+                        "x": 182.995,
+                        "y": 35.56
+                    },
+                    "uuid": "859c3441-50a2-46a9-a9db-9768d6720ab4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 181.415,
+                        "y": 54.41
+                    },
+                    "uuid": "8eb0cf49-f2c8-4e7d-b221-2540a4ca46ce"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_Hybrid_0805_D3.0mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint LED1",
+                    "pos": {
+                        "x": 154.945,
+                        "y": 59.195
+                    },
+                    "uuid": "964e6940-b23c-457e-8af2-8e385b4c7605"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 196.115,
+                        "y": 30.775
+                    },
+                    "uuid": "99e60664-8426-4b61-bfeb-d64d24028f91"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 144.315,
+                        "y": 54.41
+                    },
+                    "uuid": "9a6a4e7d-eedb-43d8-b525-360daebeb7b8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'Q_NPN_Hybrid_TO-92_SOT-23' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint Q2",
+                    "pos": {
+                        "x": 169.925,
+                        "y": 66.32
+                    },
+                    "uuid": "a56dc266-ed51-4a83-8408-c03231efc6f0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_Hybrid_0805_D3.0mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint LED2",
+                    "pos": {
+                        "x": 141.695,
+                        "y": 59.195
+                    },
+                    "uuid": "a5fec2dd-150b-4f64-a571-b1810dae2820"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'CP_Hybrid_0805_D5.0mm_P2.50mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 134.3826,
+                        "y": 64.695
+                    },
+                    "uuid": "a67d9ea4-f8c2-4d8a-9879-6a4dd766a2e5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'CP_Hybrid_0805_D5.0mm_P2.50mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 162.6174,
+                        "y": 58.695
+                    },
+                    "uuid": "ac7816d0-9de1-4348-b829-f2119e521ea3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'CP_Hybrid_0805_D5.0mm_P2.50mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 106.5174,
+                        "y": 58.695
+                    },
+                    "uuid": "af07b5f8-a3a2-466a-a599-c3fa83a4c77d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'Q_NPN_Hybrid_TO-92_SOT-23' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint Q2",
+                    "pos": {
+                        "x": 197.975,
+                        "y": 42.685
+                    },
+                    "uuid": "afc4c144-b5ec-4ab7-803a-c6711575cc2d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 200.415,
+                        "y": 54.41
+                    },
+                    "uuid": "afe51601-42e1-4a81-9609-ba6f70cbb75d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 140.015,
+                        "y": 30.775
+                    },
+                    "uuid": "b0c07757-105c-4acf-861a-3fafabfa6c4f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 111.965,
+                        "y": 54.41
+                    },
+                    "uuid": "b0e3314e-cccd-4bd9-8cc4-003db123f915"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'CP_Hybrid_0805_D5.0mm_P2.50mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 190.6674,
+                        "y": 35.06
+                    },
+                    "uuid": "b7e70b8f-79f6-4868-a60f-e60816574eaf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_Hybrid_0805_D3.0mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint LED1",
+                    "pos": {
+                        "x": 126.895,
+                        "y": 59.195
+                    },
+                    "uuid": "b96e06f0-e7c9-4bab-acaf-9baefd9b6ac5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'Q_NPN_Hybrid_TO-92_SOT-23' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint Q2",
+                    "pos": {
+                        "x": 197.975,
+                        "y": 66.32
+                    },
+                    "uuid": "ba0b22a4-b398-407e-9706-894fc1bb27ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 172.365,
+                        "y": 30.775
+                    },
+                    "uuid": "be3ab49b-c084-4513-9b98-5bde89cc6e5a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_Hybrid_0805_D3.0mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint LED2",
+                    "pos": {
+                        "x": 197.795,
+                        "y": 35.56
+                    },
+                    "uuid": "be8056e2-5a88-4ea4-92af-1ccbd2a6ff4c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 172.365,
+                        "y": 54.41
+                    },
+                    "uuid": "c07cefc0-2aef-450e-91d2-c276e19a11b6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'Q_NPN_Hybrid_TO-92_SOT-23' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint Q2",
+                    "pos": {
+                        "x": 141.875,
+                        "y": 42.685
+                    },
+                    "uuid": "c1a846dd-028d-4105-b90a-dde993f2d041"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 125.315,
+                        "y": 30.775
+                    },
+                    "uuid": "c22f9e96-f74e-4943-b92c-7b3fab561d0b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'CP_Hybrid_0805_D5.0mm_P2.50mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 190.6674,
+                        "y": 58.695
+                    },
+                    "uuid": "c23ffa1f-e509-46b7-a2b6-b08c031fc728"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 185.715,
+                        "y": 54.41
+                    },
+                    "uuid": "c74c71fe-8ed6-4fcb-b7b7-bbf849d7fe06"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 129.615,
+                        "y": 54.41
+                    },
+                    "uuid": "cc822c3a-7116-4115-83a8-ed2089c3b610"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 97.265,
+                        "y": 54.41
+                    },
+                    "uuid": "d6595fd5-5571-4005-b09a-cf9d68f37c33"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 140.015,
+                        "y": 54.41
+                    },
+                    "uuid": "d69af687-972d-4160-9dee-9e67023b84f2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_Hybrid_0805_D3.0mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint LED2",
+                    "pos": {
+                        "x": 113.645,
+                        "y": 35.56
+                    },
+                    "uuid": "d7299876-7d2e-4d91-be95-836e96e5f068"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'CP_Hybrid_0805_D5.0mm_P2.50mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 134.3826,
+                        "y": 41.06
+                    },
+                    "uuid": "d876d41a-c62c-4732-8823-217ea264b843"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_Hybrid_0805_D3.0mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint LED1",
+                    "pos": {
+                        "x": 98.845,
+                        "y": 59.195
+                    },
+                    "uuid": "d8b3fcb1-c3d1-4f57-9c5e-e29e603080c3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'Q_NPN_Hybrid_TO-92_SOT-23' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 155.125,
+                        "y": 66.32
+                    },
+                    "uuid": "de8596f0-b1c7-4de8-b7b1-41d290bcea1e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'Q_NPN_Hybrid_TO-92_SOT-23' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 155.125,
+                        "y": 42.685
+                    },
+                    "uuid": "e0007392-dc2a-4830-9bd8-869a8e65dea9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'CP_Hybrid_0805_D5.0mm_P2.50mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 162.6174,
+                        "y": 35.06
+                    },
+                    "uuid": "e36b5560-94d3-409d-af8a-806534692ce7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 153.365,
+                        "y": 30.775
+                    },
+                    "uuid": "e6425a4e-55ba-4c26-87fc-3467a7ffa219"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_Hybrid_0805_D3.0mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint LED2",
+                    "pos": {
+                        "x": 197.795,
+                        "y": 59.195
+                    },
+                    "uuid": "e8195e6a-2557-49fa-80d5-b4d49abccdb9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 129.615,
+                        "y": 30.775
+                    },
+                    "uuid": "e98a1651-1f1b-411f-bf33-ff81960f7377"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'CP_Hybrid_0805_D5.0mm_P2.50mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 162.4326,
+                        "y": 41.06
+                    },
+                    "uuid": "eb5b8a2b-cc68-44b5-ac2e-7afdb4c9f01b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'CP_Hybrid_0805_D5.0mm_P2.50mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 190.4826,
+                        "y": 41.06
+                    },
+                    "uuid": "ebdcb826-91de-4528-8396-f03c75b00a54"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'Q_NPN_Hybrid_TO-92_SOT-23' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint Q2",
+                    "pos": {
+                        "x": 113.825,
+                        "y": 42.685
+                    },
+                    "uuid": "eefd066f-5bdd-4139-bf59-e86341278a82"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_Hybrid_0805_D3.0mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint LED1",
+                    "pos": {
+                        "x": 126.895,
+                        "y": 35.56
+                    },
+                    "uuid": "f3c48a2a-2fc8-48b7-bbfa-ca3b9747600e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'Q_NPN_Hybrid_TO-92_SOT-23' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 127.075,
+                        "y": 42.685
+                    },
+                    "uuid": "f8c7512f-9864-4b66-a4cb-4fcbd58e0504"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_Hybrid_0805_D3.0mm' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint LED1",
+                    "pos": {
+                        "x": 182.995,
+                        "y": 59.195
+                    },
+                    "uuid": "fcb4c539-c75d-49ed-885f-af8c0a37c3c6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Hybrid_0805_P2.54_Vertical' does not match copy in library 'Hybrid'.",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 196.115,
+                        "y": 54.41
+                    },
+                    "uuid": "ffa8cb66-3972-4ee0-b986-618e25577a93"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}

@@ -1,0 +1,108 @@
+{
+  "ok": true,
+  "pcb": "/home/lahiru/electronics/astable_multivibrator/kicad/astable_multivibrator/astable_multivibrator.kicad_pcb",
+  "schematic": "/home/lahiru/electronics/astable_multivibrator/kicad/astable_multivibrator/astable_multivibrator.kicad_sch",
+  "kicad_cli": "/usr/bin/kicad-cli",
+  "output_dir": "/home/lahiru/electronics/astable_multivibrator/release/20261020_190434/pcb_fab",
+  "gerber_dir": "/home/lahiru/electronics/astable_multivibrator/release/20261020_190434/pcb_fab/gerbers",
+  "assembly_dir": "/home/lahiru/electronics/astable_multivibrator/release/20261020_190434/pcb_fab/assembly",
+  "layers": [
+    "F.Cu",
+    "B.Cu",
+    "F.Paste",
+    "B.Paste",
+    "F.Silkscreen",
+    "B.Silkscreen",
+    "F.Mask",
+    "B.Mask",
+    "Edge.Cuts"
+  ],
+  "positions_csv": "/home/lahiru/electronics/astable_multivibrator/release/20261020_190434/pcb_fab/assembly/astable_multivibrator_positions.csv",
+  "assembly_bom_csv": "/home/lahiru/electronics/astable_multivibrator/release/20261020_190434/pcb_fab/assembly/astable_multivibrator_assembly_bom.csv",
+  "commands": {
+    "gerbers": {
+      "cmd": [
+        "/usr/bin/kicad-cli",
+        "pcb",
+        "export",
+        "gerbers",
+        "--output",
+        "/home/lahiru/electronics/astable_multivibrator/release/20261020_190434/pcb_fab/gerbers",
+        "--layers",
+        "F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask,Edge.Cuts",
+        "--subtract-soldermask",
+        "/home/lahiru/electronics/astable_multivibrator/kicad/astable_multivibrator/astable_multivibrator.kicad_pcb"
+      ],
+      "returncode": 0,
+      "stdout": "Plotted to '/home/lahiru/electronics/astable_multivibrator/release/20261020_190434/pcb_fab/gerbers/astable_multivibrator-F_Cu.gtl'.\nPlotted to '/home/lahiru/electronics/astable_multivibrator/release/20261020_190434/pcb_fab/gerbers/astable_multivibrator-B_Cu.gbl'.\nPlotted to '/home/lahiru/electronics/astable_multivibrator/release/20261020_190434/pcb_fab/gerbers/astable_multivibrator-F_Paste.gtp'.\nPlotted to '/home/lahiru/electronics/astable_multivibrator/release/20261020_190434/pcb_fab/gerbers/astable_multivibrator-B_Paste.gbp'.\nPlotted to '/home/lahiru/electronics/astable_multivibrator/release/20261020_190434/pcb_fab/gerbers/astable_multivibrator-F_Silkscreen.gto'.\nPlotted to '/home/lahiru/electronics/astable_multivibrator/release/20261020_190434/pcb_fab/gerbers/astable_multivibrator-B_Silkscreen.gbo'.\nPlotted to '/home/lahiru/electronics/astable_multivibrator/release/20261020_190434/pcb_fab/gerbers/astable_multivibrator-F_Mask.gts'.\nPlotted to '/home/lahiru/electronics/astable_multivibrator/release/20261020_190434/pcb_fab/gerbers/astable_multivibrator-B_Mask.gbs'.\nPlotted to '/home/lahiru/electronics/astable_multivibrator/release/20261020_190434/pcb_fab/gerbers/astable_multivibrator-Edge_Cuts.gm1'.",
+      "stderr": ""
+    },
+    "drill": {
+      "cmd": [
+        "/usr/bin/kicad-cli",
+        "pcb",
+        "export",
+        "drill",
+        "--output",
+        "/home/lahiru/electronics/astable_multivibrator/release/20261020_190434/pcb_fab/gerbers",
+        "--format",
+        "excellon",
+        "--excellon-units",
+        "mm",
+        "--generate-map",
+        "--map-format",
+        "gerberx2",
+        "--generate-report",
+        "--report-path",
+        "/home/lahiru/electronics/astable_multivibrator/release/20261020_190434/pcb_fab/gerbers/astable_multivibrator-drill_report.txt",
+        "/home/lahiru/electronics/astable_multivibrator/kicad/astable_multivibrator/astable_multivibrator.kicad_pcb"
+      ],
+      "returncode": 0,
+      "stdout": "Created file '/home/lahiru/electronics/astable_multivibrator/release/20261020_190434/pcb_fab/gerbers/astable_multivibrator.drl'\nCreated file '/home/lahiru/electronics/astable_multivibrator/release/20261020_190434/pcb_fab/gerbers/astable_multivibrator-drl_map.gbr'.\nDone.",
+      "stderr": ""
+    },
+    "positions": {
+      "cmd": [
+        "/usr/bin/kicad-cli",
+        "pcb",
+        "export",
+        "pos",
+        "--output",
+        "/home/lahiru/electronics/astable_multivibrator/release/20261020_190434/pcb_fab/assembly/astable_multivibrator_positions.csv",
+        "--side",
+        "both",
+        "--format",
+        "csv",
+        "--units",
+        "mm",
+        "--exclude-dnp",
+        "/home/lahiru/electronics/astable_multivibrator/kicad/astable_multivibrator/astable_multivibrator.kicad_pcb"
+      ],
+      "returncode": 0,
+      "stdout": "Wrote position data to '/home/lahiru/electronics/astable_multivibrator/release/20261020_190434/pcb_fab/assembly/astable_multivibrator_positions.csv'.",
+      "stderr": ""
+    },
+    "bom": {
+      "cmd": [
+        "/usr/bin/kicad-cli",
+        "sch",
+        "export",
+        "bom",
+        "--output",
+        "/home/lahiru/electronics/astable_multivibrator/release/20261020_190434/pcb_fab/assembly/astable_multivibrator_assembly_bom.csv",
+        "--fields",
+        "Reference,Value,Footprint,QUANTITY,DNP,MPN,LCSC Part #",
+        "--labels",
+        "Refs,Value,Footprint,Qty,DNP,MPN,LCSC Part #",
+        "--group-by",
+        "Value,Footprint,MPN,LCSC Part #",
+        "--exclude-dnp",
+        "/home/lahiru/electronics/astable_multivibrator/kicad/astable_multivibrator/astable_multivibrator.kicad_sch"
+      ],
+      "returncode": 0,
+      "stdout": "Wrote bill of materials to '/home/lahiru/electronics/astable_multivibrator/release/20261020_190434/pcb_fab/assembly/astable_multivibrator_assembly_bom.csv'.",
+      "stderr": ""
+    }
+  },
+  "zip": "/home/lahiru/electronics/astable_multivibrator/release/20261020_190434/pcb_fab/astable_multivibrator_fab.zip"
+}

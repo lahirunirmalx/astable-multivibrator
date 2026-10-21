@@ -1,0 +1,8 @@
+Manufacturer Part Number,Quantity,Customer Reference
+PWR_IN,1,J1
+470,2,R1 R4
+LED_RED,2,LED1 LED2
+47k,2,R2 R3
+10uF,2,C1 C2
+NPN,2,Q1 Q2
+PINOUT,4,JP1 JP2 JP3 JP4

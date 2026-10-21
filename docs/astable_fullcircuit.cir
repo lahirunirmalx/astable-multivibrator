@@ -1,0 +1,22 @@
+* astable multivibrator - full circuit transient (2N3904-class NPN, red LED)
+.param VSUP=9
+Vcc vcc 0 {VSUP}
+R1 vcc led1a 470
+D1 led1a q1c LEDRED
+R4 vcc led2a 470
+D2 led2a q2c LEDRED
+R2 vcc q1b 47k
+R3 vcc q2b 47k
+C1 q1c q2b 10u
+C2 q2c q1b 10.5u
+Q1 q1c q1b 0 NPNGP
+Q2 q2c q2b 0 NPNGP
+.model NPNGP NPN(IS=6.7e-15 BF=200 VAF=74 IKF=0.08 ISE=6.7e-15 NE=1.3 BR=4 RB=10 RC=1 CJE=4.5p CJC=3.5p TF=0.4n TR=240n)
+.model LEDRED D(IS=1e-18 N=1.8 RS=2 CJO=20p)
+.tran 1m 4 0 1m uic
+.control
+run
+linearize v(q1c) v(q2c)
+wrdata q1c_9v.txt v(q1c)
+.endc
+.end

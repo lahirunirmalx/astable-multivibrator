@@ -1,0 +1,8 @@
+"Refs","Value","Footprint","Qty","DNP","MPN","LCSC Part #"
+"C1,C2","10uF","Hybrid:CP_Hybrid_0805_D5.0mm_P2.50mm","","","",""
+"J1","PWR_IN","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","","","",""
+"JP1-JP4","PINOUT","Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm","","","",""
+"LED1,LED2","LED_RED","Hybrid:LED_Hybrid_0805_D3.0mm","","","",""
+"Q1,Q2","NPN","Hybrid:Q_NPN_Hybrid_TO-92_SOT-23","","","",""
+"R1,R4","470","Hybrid:R_Hybrid_0805_P2.54_Vertical","","","",""
+"R2,R3","47k","Hybrid:R_Hybrid_0805_P2.54_Vertical","","","",""

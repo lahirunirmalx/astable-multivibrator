@@ -1,0 +1,173 @@
+(footprint "R_Hybrid_0805_P2.54_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Hybrid resistor: axial DIN0207 vertical P2.54 THT OR 0805 chip; same pad numbers, lands overlap rings")
+	(tags "resistor hybrid 0805 axial vertical")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "4ad8903b-f839-4665-ae64-44430586b133")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_Hybrid_0805_P2.54_Vertical"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "7d34926c-b9e1-4c2f-9791-ebcdc7476a75")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80928956-c75f-4c2a-8e33-301159d4a2e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a769b8d2-bb5f-40ab-9385-45b5c254506a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.3 2.049999)
+		(end 0.3 2.049999)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7d3a0e68-21d8-412a-a327-3df2888a525d")
+	)
+	(fp_line
+		(start 0.1 0)
+		(end 0.17 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d44c71d7-faf1-44e1-8357-ad8ea4a0e6ba")
+	)
+	(fp_circle
+		(center -1.27 0)
+		(end 0.1 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "010bce74-03d7-4110-8b66-3db935b77a67")
+	)
+	(fp_rect
+		(start -2.95 -1.68)
+		(end 2.32 2.359999)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c04333f3-e557-4eaf-b2f8-0110f958f544")
+	)
+	(fp_line
+		(start -1.27 0)
+		(end 1.27 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0fb4dfb4-70d1-41e0-9efd-278a46b01e82")
+	)
+	(fp_rect
+		(start -1 0.525)
+		(end 1 1.775)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "86f4d2d8-6679-4f99-8751-8b18c5725c5e")
+	)
+	(fp_circle
+		(center -1.27 0)
+		(end -0.02 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f9cac5a3-9af4-4e3a-899b-c7f4ad94abc8")
+	)
+	(pad "1" thru_hole circle
+		(at -1.27 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f616826a-20e9-4b27-be25-994a75305de6")
+	)
+	(pad "1" smd roundrect
+		(at -0.9125 1.15)
+		(size 1.025 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.243902)
+		(thermal_bridge_angle 45)
+		(uuid "105078db-d57c-4b64-871e-1a7523429fdf")
+	)
+	(pad "2" smd roundrect
+		(at 0.9125 1.15)
+		(size 1.025 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.243902)
+		(thermal_bridge_angle 45)
+		(uuid "45022135-2cea-42f2-a84a-2e0bc600f32b")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6c0e2d06-db88-442a-9216-d793172232b9")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical.wrl"
+		(offset
+			(xyz -1.27 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
