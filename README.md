@@ -121,17 +121,39 @@ Follow [docs/assembly.md](docs/assembly.md). Short version:
    face toward the jumpers.
 5. Apply 5 V to J1 (square pad = +). Both LEDs should flash alternately.
 
+## Versions
+
+| | v1 (this page) | v2 |
+|---|---|---|
+| Board | 26 x 22 mm, 2 layers, fab-made | 62 x 72 mm, 1 layer, make it at home |
+| Parts | THT or SMD per position | THT only |
+| Timing | fixed 47k / 10 uF | 3 x 3 selectable with header shunts |
+| Pinout select | solder jumpers | pin headers with shunts |
+| Files | `kicad/astable_multivibrator/`, `release/` | `kicad/astable_v2_single_layer/`, `release/v2/` |
+
+v2 details, etching and build guide: [docs/v2_home_etching.md](docs/v2_home_etching.md).
+
+![v2 3D view](images/v2/pcb_3d_iso.png)
+
+## Simulate it in your browser
+
+CircuitJS (falstad.com) version of the circuit, 47k / 10 uF:
+[open the simulation](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0lwrOGAmOyDs6DMkAcyA2ATiPRHknPMgCgA3EIgkLVR5ggFih88sUqDo8GgHN2LNkxbxkUGgHcJXcAUoraSsGpArUuXd00h9hkH3VHF5uGc6cDG69NaVkfSYOvvKrlgQM-WgAnVUswiMpOdFptOW1KBIjkdxMQABMAUwAzAEMAVwAbABcAWkLM9PAeIUhkaySU7jAiOSb5LVaTVJ9uq2KTPBMPXt7EmsHjUfhmXqCaUNM9IbHzGLgF8wc7baSomJo4rYMk+wN2uSy8orKKqohBKFh6pTO+8213405P9qwAr40AYWYa+AGrB48VDGf7nGb+QJsEI2cIg1bROC0ADG4C67Ra8XQzESmVKkAEHVxhOYWFwzSJlNp9JpdNBjNZvTRHmxH1mqR+s1wBhJZIp31+QveyElUx6kou3O8PRGK0VAA8JCDpCDmtwAIIAZ2KuQARhUQABbG4ASzo1pNwVyxQA9qEADIAUQAIiBsoVcgaABaZYIAGjWAGsQAB6JAgfIAMXDpud+QGYGEIAAEgAvaAgADCgdyADtRJkQAAlZDhytYcMFsANuQuy1OrGBkDFYMgABSlZjfYLIGDuSywQNIGdJa7PbochNztywXS0BoQA).
+The text dump is in [docs/circuitjs/](docs/circuitjs/) if the link ever breaks
+(File > Import From Text).
+
 ## Repository layout
 
 ```
-kicad/astable_multivibrator/   KiCad 9 project: schematic, board, lib tables
-kicad/lib/Hybrid.pretty        hybrid THT + SMD footprints (project library)
-kicad/lib/Hybrid.kicad_sym     5-pin NPN symbol used by the hybrid transistor
-kicad/panel/                   KiKit preset, panelize.sh, panel board
-kicad/tools/                   generators: hybrid footprints, 3D models, schematic layout, routing, netlist check
-images/                        schematic, layer plots and 3D renders used above
-docs/                          assembly guide, schematic PDF, design check reports
-release/                       gerber zips, STEP, order notes, fab package
+kicad/astable_multivibrator/   v1 KiCad 9 project: schematic, board, lib tables
+kicad/astable_v2_single_layer/ v2 KiCad 9 project (single sided, selectable RC)
+kicad/lib/Hybrid.*             v1 hybrid THT + SMD footprints and 5-pin NPN symbol
+kicad/lib/HomeEtch.pretty      v2 home-etch footprints; AstableV2.kicad_sym = TO-92 socket symbol
+kicad/panel/                   v1 KiKit preset, panelize.sh, panel board
+kicad/tools/                   generators: footprints, 3D models, schematics, boards, routing, netlist check
+images/, images/v2/            schematic, layer plots and 3D renders
+docs/                          assembly guides, schematic PDFs, design check reports, spice sweep, CircuitJS
+release/, release/v2/          gerber zips, STEP, print PDFs, order notes
 datasheets/                    generic BOM CSV
 analysis/                      analyzer outputs from the design checks
 CLAUDE.md, STATUS.md           design brief and phase log of the agent workflow that produced the board
@@ -148,6 +170,9 @@ python3 kicad/tools/layout_schematic.py                   # re-lay the schematic
 /usr/bin/python3 kicad/tools/compare_netlist.py <net> <pcb>   # schematic vs board connectivity
 kicad/panel/panelize.sh                                   # KiKit 2 x 4 panel + DRC
 ```
+
+v2 has its own chain (footprints, schematic, board, single-layer routing, GND pour),
+listed at the end of [docs/v2_home_etching.md](docs/v2_home_etching.md).
 
 Routing was done with Freerouting via `kicad/tools/route_freerouting.py`.
 
@@ -170,7 +195,7 @@ photo and the measured flash rate.
 MIT, see [LICENSE](LICENSE). This covers the schematic, board, footprints,
 scripts and documentation in this repository.
 
-The hybrid footprints in `kicad/lib/Hybrid.pretty` are derived from the KiCad
+The footprints in `kicad/lib/` are derived from the KiCad
 footprint library and the 3D renders use the KiCad 3D model library. Those
 libraries are licensed CC-BY-SA 4.0 with the KiCad library exception, which
 allows their use in designs under any license.

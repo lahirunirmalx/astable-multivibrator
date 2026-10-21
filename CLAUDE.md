@@ -161,6 +161,16 @@ Base reverse swing = -(Vcc - 0.7): 5 V -> -4.3 V (< V_EBO 6 V ok); 9 V -> -8.3 V
 
 ---
 
+## v2 (2026-10-21): single-sided home-etch variant
+
+Same circuit, `kicad/astable_v2_single_layer/`. Bottom copper only (F.Cu rule area, no vias), THT only,
+1.0 mm tracks / 0.6 mm clearance / 1.0 mm edge, pads 1.8 to 2.4 mm with 0.9 to 1.0 mm drills
+(`kicad/lib/HomeEtch.pretty`). Rb and C selectable per stage with 2x3 headers (odd pins = common,
+even pins = options), pinout select on 1x3 headers with the v1 pad semantics. Three wire links
+(W1, W2 on GND, W3 on Q1_B) are modelled as series elements on sub-nets joined by net-tie footprints;
+the pinout block is not single-layer planar (K3,3), so they are unavoidable. Transistor socket symbol
+`AstableV2:Q_NPN_TO92_Socket` has pins L / B / R named for the holes.
+
 ## placement
 
 ```yaml

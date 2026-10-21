@@ -1,0 +1,136 @@
+(footprint "R_Axial_P10.16mm_HomeEtch"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Axial resistor 0207, 10.16 mm pitch, 2.4 mm pads, home etch")
+	(tags "resistor axial home etch")
+	(property "Reference" "REF**"
+		(at 0 -4.5 0)
+		(layer "F.SilkS")
+		(uuid "6a4be847-26f4-480e-b69c-de250c2d6c7f")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "R_Axial_P10.16mm_HomeEtch"
+		(at 0 4.5 0)
+		(layer "F.Fab")
+		(uuid "a7a947e5-1232-4462-a278-62d8b64c80bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26648455-2499-47bd-967f-8532ff55db99")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7358321c-c5a0-4b4a-a618-8c24b8946c4d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.3 0)
+		(end -3.6 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ea1da39c-aefa-4ff4-8814-495eb6f18398")
+	)
+	(fp_line
+		(start 3.3 0)
+		(end 3.6 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3086a376-14c0-4b8a-92c8-79d9d19ee04d")
+	)
+	(fp_rect
+		(start -3.3 -1.4)
+		(end 3.3 1.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "dc439eb4-c348-4486-bda8-e156658b4d0c")
+	)
+	(fp_rect
+		(start -6.78 -1.975)
+		(end 6.78 1.975)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d31bdbbb-605d-4824-b088-e43b723343cc")
+	)
+	(fp_rect
+		(start -3.15 -1.25)
+		(end 3.15 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7f61ad05-5dc8-4bb8-bf91-8f228b361495")
+	)
+	(pad "1" thru_hole circle
+		(at -5.08 0)
+		(size 2.4 2.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "26b986e9-08d5-4d71-b8a4-d97383837fbc")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 2.4 2.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c7427b56-2985-4101-b3f1-9b73145aac7a")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(offset
+			(xyz -5.08 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

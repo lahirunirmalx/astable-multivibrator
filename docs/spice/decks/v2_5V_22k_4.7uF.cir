@@ -1,0 +1,21 @@
+* astable v2 timing sweep: Rb=22k C=4.7uF Vcc=5
+Vcc vcc 0 5
+R1 vcc led1a 470
+D1 led1a q1c LEDRED
+R4 vcc led2a 470
+D2 led2a q2c LEDRED
+R2 vcc q1b 22000.0
+R3 vcc q2b 22000.0
+C1 q1c q2b 4.7e-06
+C2 q2c q1b 4.935e-06
+Q1 q1c q1b 0 NPNGP
+Q2 q2c q2b 0 NPNGP
+.model NPNGP NPN(IS=6.7e-15 BF=200 VAF=74 IKF=0.08 ISE=6.7e-15 NE=1.3 BR=4 RB=10 RC=1 CJE=4.5p CJC=3.5p TF=0.4n TR=240n)
+.model LEDRED D(IS=1e-18 N=1.8 RS=2 CJO=20p)
+.tran 0.0002 2.0063736 0 0.0002 uic
+.control
+set noaskquit
+run
+wrdata v2_5V_22k_4.7uF.txt v(q1c) v(led1a)
+.endc
+.end

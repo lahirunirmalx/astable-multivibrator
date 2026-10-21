@@ -1,0 +1,158 @@
+(footprint "TO-92_P2.54mm_HomeEtch"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TO-92 inline, 2.54 mm leg pitch, pad 1 = left leg (square), flat face toward the silk line, home etch")
+	(tags "transistor to-92 home etch")
+	(property "Reference" "REF**"
+		(at 0 -4.5 0)
+		(layer "F.SilkS")
+		(uuid "82e5e486-c63d-4589-94dc-5691ad93b351")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "TO-92_P2.54mm_HomeEtch"
+		(at 0 4.5 0)
+		(layer "F.Fab")
+		(uuid "2dd61cdc-0fc0-4c08-a2cc-d348d007a312")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e86fb8b-b35c-403d-b964-d08ef0060025")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30e0b990-7405-435b-860b-e21af2af58e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.45 1)
+		(end -2.45 0.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "afe1c602-9d71-4f32-ab1a-23ed13743cae")
+	)
+	(fp_line
+		(start -2.45 1)
+		(end 2.45 1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d4bba6b8-e5eb-4bed-bb2f-b907a7451b19")
+	)
+	(fp_line
+		(start 2.45 1)
+		(end 2.45 0.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4fc2f98e-6491-4dd3-a208-ae9ceda57d29")
+	)
+	(fp_arc
+		(start 2.4432 0.889252)
+		(mid 0 2.6)
+		(end -2.4432 0.889252)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2813c755-4b0a-454e-9b7a-c47136129ba5")
+	)
+	(fp_rect
+		(start -3.94 -3.05)
+		(end 3.94 3.175)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "49a9151a-d346-4686-8663-1256e5c94927")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "624266e4-61ef-4662-9f3a-28dc515c7a31")
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.54 0)
+		(size 1.8 2.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "1f563d1e-4fce-4890-86eb-763436d45ebc")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 1.8 2.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "1a2b4e84-56b2-46b2-8950-4f270ff3c5de")
+	)
+	(pad "3" thru_hole oval
+		(at 2.54 0)
+		(size 1.8 2.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "d11ffe5e-bd46-4a1f-9525-a6c8c6f69e89")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"
+		(offset
+			(xyz -2.54 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

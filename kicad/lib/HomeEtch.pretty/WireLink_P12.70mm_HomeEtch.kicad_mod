@@ -1,0 +1,104 @@
+(footprint "WireLink_P12.70mm_HomeEtch"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Wire link (bare wire on the component side), 12.7 mm pitch; pads are a net tie")
+	(tags "wire link jumper home etch")
+	(property "Reference" "REF**"
+		(at 0 -4.5 0)
+		(layer "F.SilkS")
+		(uuid "55be5451-5f0d-4bd0-a408-b92b7065c64d")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "WireLink_P12.70mm_HomeEtch"
+		(at 0 4.5 0)
+		(layer "F.Fab")
+		(uuid "1f53cf55-961a-4324-b5ed-772ed723e62c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ea363a1-6174-47fb-8fcd-8c336c3dc6fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2f04470-46d9-4628-897f-385b71c0986d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(net_tie_pad_groups "1,2")
+	(fp_line
+		(start -4.75 0)
+		(end 4.75 0)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "381ea561-f813-438e-a323-88a53e5447a6")
+	)
+	(fp_rect
+		(start -8.05 -1.7)
+		(end 8.05 1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0f97cad0-37d2-4670-b48a-28f91a307914")
+	)
+	(fp_line
+		(start -4.75 0)
+		(end 4.75 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b4585ec4-f114-4fad-9b15-7d7bb9116e88")
+	)
+	(pad "1" thru_hole circle
+		(at -6.35 0)
+		(size 2.4 2.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9c472554-6a70-45c3-98d0-2fcec9c5a1da")
+	)
+	(pad "2" thru_hole circle
+		(at 6.35 0)
+		(size 2.4 2.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ee3c76af-fb5e-4c4f-8103-398657b72aba")
+	)
+	(embedded_fonts no)
+)

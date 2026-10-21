@@ -1,0 +1,139 @@
+(footprint "CP_Radial_D6.3mm_P2.50mm_HomeEtch"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Radial electrolytic up to 6.3 mm dia, 2.5 mm pitch, pad 1 = +, home etch")
+	(tags "capacitor electrolytic radial home etch")
+	(property "Reference" "REF**"
+		(at 0 -4.5 0)
+		(layer "F.SilkS")
+		(uuid "d6db7f9a-62fb-463c-972c-9e70574c0908")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "CP_Radial_D6.3mm_P2.50mm_HomeEtch"
+		(at 0 4.5 0)
+		(layer "F.Fab")
+		(uuid "7a9589f2-b693-4878-9031-d6b98ed6027d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b322796-cf0a-4cf9-924f-5cfa76fd65ba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7425449-a687-4a85-a9c5-b438c2712c67")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.8 -2.1)
+		(end -3.8 -2.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "78c63dd8-8fb0-4894-ac4e-f9db16905f7f")
+	)
+	(fp_line
+		(start -4.3 -1.6)
+		(end -4.3 -2.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "94c9f449-bf9a-407f-a572-9c38f7776a63")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.35 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a9c51e0b-13d0-40bd-80f4-5e7f38ca3141")
+	)
+	(fp_rect
+		(start -5.375 -3.925)
+		(end 3.925 3.925)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3d688156-15b7-476f-b1e6-fe440e1b38b8")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.15 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d0acdd41-1aca-4602-8d4a-1a7fc9eab2d4")
+	)
+	(pad "1" thru_hole roundrect
+		(at -1.25 0)
+		(size 1.8 2.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "91e6179f-013c-4a7f-a7a0-6e7fa5b119ad")
+	)
+	(pad "2" thru_hole oval
+		(at 1.25 0)
+		(size 1.8 2.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "3d3f362b-2bf4-4653-b1ff-864ec670a143")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.wrl"
+		(offset
+			(xyz -1.25 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -20,6 +20,8 @@ datasheets/_archive/
 kicad/**/*.dsn
 kicad/**/*.ses
 kicad/**/*.net
+kicad/**/*_routed.*
+docs/spice/decks/*.txt
 kicad/**/*.round1.kicad_pcb
 kicad/**/logs/
 kicad/**/*-backups/
@@ -30,3 +32,6 @@ kicad/**/*.kicad_sch-bak
 
 # PCB-Agent-Teams workflow scratch
 _artifacts/
+
+# Freerouting log written to the project root
+logs/
